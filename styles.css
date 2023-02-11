@@ -1,0 +1,48 @@
+body{
+    background-color: lightgray;
+}
+
+
+.TopPage{
+    text-align: center;
+    height: 55px;
+    background-color: white;
+}
+
+.Feed{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+.Post{
+    background-color: white;
+    height: 600px;
+    width: 800px;
+    /* padding: 20px; */
+    /* border: 10px; */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.PostHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.PostImg{
+    width: 100%;
+    height: 70%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.PostCaption p{
+    font-size: 20px;
+}
